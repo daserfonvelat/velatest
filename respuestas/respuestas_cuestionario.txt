@@ -1,0 +1,80 @@
+---- 2025-07-21 15:45:12 ----
+nombre: das
+edad: 32
+eventos_tv: Sí, es uno de mis rituales favoritos
+anfitrion_cenas: Sí, me encanta organizar eventos
+gente_dormir: Tengo ocupas constantemente
+espacio_socializar: ada
+relacion_cocina: Íntima, soy un/a cocinitas y uso mucho espacio
+almacenamiento_comida: Acumulo provisiones e intento tener de todo.
+cocinar_momento: Prefiero no tener compañía, soy de concentrarme cuando cocino
+relacion_ropa: Soy un poco fashion victim
+maquillaje_accesorios: Muy importante, forman parte de mi rutina diaria
+luz_dormir: Oscuridad absoluta, cualquier rayo de luz me perturba
+actividad_dia: Estamos sincronizados en horarios, somos más de madrugar
+bano_objetos: Tengo mil aparatos, jabones, cremas, toallas… el baño es mi templo
+distribucion_bano: Otro
+distribucion_bano_otro: sad
+ducha_importancia: Solo ducha, rápida y directa
+desnudez: Me gusta la privacidad, me preocupa si me ven desde alguna ventana o patio
+concentracion: Cuando todo está ordenado y en silencio… zen total
+espacio_trabajo: asda
+iluminacion_trabajo: Luz natural abundante
+trabajo_estudio: Totalmente digital, no uso mucho espacio
+plantas: Muchas plantas, casi una jungla urbana
+musica: Digital, todo en streaming y playlists
+arte_coleccionismo: Pintura o fotografía
+arte_coleccionismo_otro: 
+lectura: Me encanta leer, prefiero el formato físico
+hobbie: asd
+objeto_nunca_tirarias: aa
+mania_ritual: aasdas
+cosas_acogedoras: sdasd
+parte_sin_lugar: asd
+
+---- 2025-07-22 23:37:48 ----
+nombre: Ylenia Serra Font
+eventos_tv: A veces, depende del momento
+anfitrion: Solo en ocasiones especiales
+pernoctan: Rara vez dejo que me roben el desayuno
+espacio_socializar: La cocina y el comedor
+relacion_cocina: Íntima, soy un/a cocinitas y uso mucho espacio
+almacenamiento: Mezcla de ambos, según la temporada
+momento_cocinar: Me gusta entretenerme mientras cocino, la compañía es bienvenida a veces
+relacion_ropa: Término medio, me gusta tener de todo pero tampoco me paso
+maquillaje: Los uso solo cuando es necesario
+luz_dormir: Un poco de luz no me molesta para dormir
+actividad_dia: Nos gusta trasnochar un poco
+bano: Tengo las cosas necesarias, no uso muchos productos
+distribucion_bano: Baño compartido para toda la familia
+distribucion_bano_otro: 
+ducha: Ni blanco ni negro, una ducha relajante es mi rollo
+desnudez: Totalmente cómodo, sin preocupaciones
+concentracion: Cuando todo está ordenado y en silencio… zen total
+espacio_trabajo: Mi mesa, mi espacio
+luz_trabajo: Luz natural abundante
+trabajo_estudio: Totalmente digital, no uso mucho espacio
+plantas: Algunas plantas sueltas para dar vida
+musica: Digital, todo en streaming y playlists
+arte: Pintura o fotografía
+arte_otro: 
+lectura: Me encanta leer, prefiero el formato físico
+hobbies: Cocina
+objeto_nunca_tirarias: Ummm no lo sé 😅
+mania_ritual: Ninguno
+casa_acogedora: La iluminación cálida, la madera, 
+sin_lugar: No tengo despacho
+
+-----
+Fecha: 2025-09-11 23:11:06
+Nombre: Prueba sept
+Espacio socializar: 
+Distribucion bano otro: 
+Espacio trabajo: 
+Arte otro: 
+Hobbies: 
+Objeto nunca tirarias: 
+Mania ritual: 
+Casa acogedora: 
+Sin lugar: 
+

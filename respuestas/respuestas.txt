@@ -1,0 +1,126 @@
+-----
+Nombre: Prueba
+Espacio socializar: 
+Distribucion bano otro: 
+Espacio trabajo: 
+Arte otro: 
+Hobbies: 
+Objeto nunca tirarias: 
+Mania ritual: 
+Casa acogedora: 
+Sin lugar: 
+
+-----
+
+
+-----
+
+
+-----
+Nombre: Prueba adulto
+Espacio socializar: 
+Distribucion bano otro: 
+Espacio trabajo: 
+Arte otro: 
+Hobbies: 
+Objeto nunca tirarias: 
+Mania ritual: 
+Casa acogedora: 
+Sin lugar: 
+
+-----
+Fiestas amigos: A veces, depende del momento
+Invitar comer: Sí, me encanta que organicen comidas
+Duermen amigos: Al menos una vez al mes tengo compañeros de casa
+Espacio amigas: La habitación
+Companero cocina: Me gusta hacerle compañía
+Despensa: Me da igual, yo no me encargo de eso
+Gustar cocinar: Me gusta cocinar con mis padres alguna vez, pero no siempre me apetece
+Ropa: Me gusta tener de todo pero me da un poco igual
+Juguetes: Demasiados y de todo tipo, ya no se dónde guardarlos
+Luz dormir: Me gusta un poco de luz para dormir
+Bano: Baño compartido para toda la familia, me da igual
+Bano otro: 
+Ducha: Ni blanco ni negro, una ducha relajante es lo que me gusta
+Concentracion: Un poco de ruido no me molesta
+Luz deberes: Me gusta la luz del día
+Creatividad: Me encantan las manualidades, hago muchas cosas distintas con las manos
+Creatividad otro: 
+Plantas: Algunas plantas sueltas
+Musica ensayar: En mi habitación, me gusta hacerlo sola
+Musica ensayar otro: 
+Coleccionar: Pintura o fotografías
+Coleccionar otro: 
+Libros: Me encanta leer, prefiero el formato físico
+Hobbies: Música  dibujar y manualidades
+Objeto nunca tirarias: Peluches
+Mania ritual: Ninguno
+Casa acogedora: El olor y la luz calida
+Sin lugar: Ninguna
+
+-----
+Nombre: Lau
+Eventos tv: Sí, es uno de mis rituales favoritos
+Anfitrion: Solo en ocasiones especiales
+Pernoctan: Rara vez dejo que me roben el desayuno
+Espacio socializar: Salón
+Relacion cocina: Íntima, soy un/a cocinitas y uso mucho espacio
+Almacenamiento: Mezcla de ambos, según la temporada
+Momento cocinar: Me gusta entretenerme mientras cocino, la compañía es bienvenida a veces
+Relacion ropa: Término medio, me gusta tener de todo pero tampoco me paso
+Maquillaje: Muy importante, forman parte de mi rutina diaria
+Luz dormir: Oscuridad absoluta, cualquier rayo de luz me perturba
+Actividad dia: Estamos sincronizados en horarios, somos más de madrugar
+Bano: Tengo las cosas necesarias, no uso muchos productos
+Distribucion bano: Baños separados: uno para padres, otro para hijos
+Distribucion bano otro: 
+Ducha: Ni blanco ni negro, una ducha relajante es mi rollo
+Desnudez: Me gusta la privacidad, me preocupa si me ven desde alguna ventana o patio
+Concentracion: Cuando todo está ordenado y en silencio… zen total
+Espacio trabajo: Que no se oigan los vecinos
+Luz trabajo: Luz natural abundante
+Trabajo estudio: Una combinación, me gusta cambiar
+Plantas: Algunas plantas sueltas para dar vida
+Musica: Mezcla de ambos, según el momento
+Arte: Minimalismo, menos es más
+Arte otro: 
+Lectura: Me encanta leer, prefiero el formato físico
+Hobbies: 
+Objeto nunca tirarias: Discos, recuerdos personales
+Mania ritual: 
+Casa acogedora: Velas, mantas, gatos
+Sin lugar: 
+
+-----
+Nombre: Alejandro Bernal
+Eventos tv: No, prefiero otro tipo de encuentros
+Anfitrion: Solo en ocasiones especiales
+Pernoctan: Rara vez dejo que me roben el desayuno
+Espacio socializar: El salon
+Relacion cocina: Íntima, soy un/a cocinitas y uso mucho espacio
+Almacenamiento: Acumulo provisiones e intento tener de todo.
+Momento cocinar: Prefiero no tener compañía, soy de concentrarme cuando cocino
+Relacion ropa: Término medio, me gusta tener de todo pero tampoco me paso
+Maquillaje: No les doy mucha importancia
+Luz dormir: Oscuridad absoluta, cualquier rayo de luz me perturba
+Actividad dia: Estamos sincronizados en horarios, somos más de madrugar
+Bano: Tengo las cosas necesarias, no uso muchos productos
+Distribucion bano: Baño compartido para toda la familia
+Distribucion bano otro: 
+Ducha: Solo ducha, rápida y directa
+Desnudez: Totalmente cómodo, sin preocupaciones
+Concentracion: Cuando todo está ordenado y en silencio… zen total
+Espacio trabajo: Sin elementos de diatraccion
+Luz trabajo: Luz natural abundante
+Trabajo estudio: Totalmente digital, no uso mucho espacio
+Plantas: Algunas plantas sueltas para dar vida
+Musica: Mezcla de ambos, según el momento
+Arte: Otro
+Arte otro: Libros, discos, figuras
+Lectura: Me encanta leer, prefiero el formato físico
+Hobbies: Musica
+Objeto nunca tirarias: Mis juguetes
+Mania ritual: No es secreto, la ducha tardo mucho
+Casa acogedora: La decoracion
+Sin lugar: Mas espacio para poder tener los hobbies y el trabajo separado o por lo menos un espacio mayor
+

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acústica restaurante Only You – velat_.studio</title>
+  <style>
+    :root{ --fg:#232323; --bg:#ffffff; --muted:#666; --line:#ddd; }
+    body{ font-family:'ABCGaisyr', Courier, monospace; background:var(--bg); color:var(--fg); margin:0; }
+    header{ position:fixed; top:0; left:0; width:120px; height:38px; z-index:200; display:flex; align-items:flex-start; }
+    .logo{ width:120px; height:30px; background:url('assets/logo40.png') center/contain no-repeat; display:block; }
+
+    main{ max-width:980px; margin:80px auto 120px; padding:0 12px; }
+    .title-bar{ display:flex; align-items:center; gap:10px; margin:0 0 14px 0; }
+    .back{ display:inline-flex; align-items:center; justify-content:center; text-decoration:none; transition:transform .15s ease; }
+    .back:hover{ transform: translateX(-2px); }
+    h1{ font-size:1.18em; letter-spacing:2px; margin:0; color:#222; }
+
+    .carousel{ position:relative; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+    .track{ display:flex; transition:transform .35s ease; will-change:transform; }
+    .slide{ min-width:100%; }
+    figure{ margin:0; }
+    .slide img{ width:100%; display:block; height:auto; }
+    figcaption{ font-size:.95em; color:#333; padding:10px 14px 14px; border-top:1px solid var(--line); background:#fff; }
+    figcaption em{ color:#555; }
+    .nav{ position:absolute; top:50%; transform:translateY(-50%); width:100%; display:flex; justify-content:space-between; pointer-events:none; }
+    .btn{ pointer-events:auto; background:rgba(255,255,255,.9); border:1px solid var(--line); border-radius:999px; padding:8px 12px; cursor:pointer; }
+    .dots{ display:flex; gap:6px; justify-content:center; padding:10px; }
+    .dot{ width:8px; height:8px; border-radius:50%; background:#bbb; cursor:pointer; }
+    .dot[aria-current="true"]{ background:#111; }
+
+    .meta{ display:grid; grid-template-columns: repeat(4,1fr); gap:12px; margin:18px 0; }
+    .meta .item{ background:#fff; border:1px solid var(--line); border-radius:10px; padding:12px; }
+    .meta .label{ font-weight:bold; font-size:.95em; color:#111; margin-bottom:6px; }
+    .meta .value{ color:#333; }
+    .concepto{ margin:22px 0 0; line-height:1.7; }
+
+    /* === BANDA INFERIOR A PANTALLA COMPLETA === */
+    .menu-bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      padding: 12px 0px;
+      display: flex;
+      justify-content: flex-end;  /* cambia a flex-start o flex-end si quieres */
+      align-items: center;
+      gap: 0 px;
+      z-index: 300;
+      
+    }
+    .menu-bottom-bar a {
+      color: #232323;
+      text-decoration: none;
+      font-family: inherit;
+      font-size: 0.98em;
+      letter-spacing: 0.5px;
+      padding: 6px 8px;
+      transition: color 0.2s ease, background 0.2s ease;
+      border-radius: 4px;
+    }
+
+.menu-bottom-bar a:not(:first-child)::before {
+  content: '/';
+  color: #bbb;
+  margin-right: 6px;
+  margin-left: 4px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+    .menu-bottom-bar a:hover { background: #f0f0f0; color: #111; }
+
+    @media (max-width:900px){
+      header{ width:80px; height:22px; } .logo{ width:80px; height:20px; }
+      .meta{ grid-template-columns:1fr 1fr; }
+    }
+    @media (max-width:600px){
+      header{ width:58px; height:15px; } .logo{ width:58px; height:15px; }
+      .meta{ grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header><a href="index.html" class="logo" aria-label="Ir a inicio"></a></header>
+  <main>
+    <div class="title-bar">
+      <a href="proyectos.html" class="back" aria-label="Volver a Proyectos" title="Volver a Proyectos">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 6 9 12 15 18" />
+        </svg>
+      </a>
+      <h1>Acústica restaurante Only You</h1>
+    </div>
+
+    <section class="carousel" aria-label="Galería de imágenes">
+      <div class="track" id="track">
+        <div class="slide">
+          <figure>
+            <img src="assets/proyectos/restaurante-onlyyou/01.jpg" alt="Sala con tratamiento acústico y veladuras en techo y paramentos">
+            <figcaption><em>Sala con tratamiento acústico y veladuras en techo y paramentos.</em></figcaption>
+          </figure>
+        </div>
+        <div class="slide">
+          <figure>
+            <img src="assets/proyectos/restaurante-onlyyou/02.jpg" alt="Detalle de materiales absorbentes integrados">
+            <figcaption><em>Detalle de materiales absorbentes integrados en la materialidad.</em></figcaption>
+          </figure>
+        </div>
+        <div class="slide">
+          <figure>
+            <img src="assets/proyectos/restaurante-onlyyou/03.jpg" alt="Barra y latidos de luz que acompañan la conversación">
+            <figcaption><em>Barra y latidos de luz que acompañan la conversación.</em></figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="nav">
+        <button class="btn" id="prev" aria-label="Anterior">‹</button>
+        <button class="btn" id="next" aria-label="Siguiente">›</button>
+      </div>
+      <div class="dots" id="dots" aria-label="Paginación"></div>
+    </section>
+
+    <section class="meta" aria-label="Metadatos del proyecto">
+      <div class="item"><div class="label">Año</div><div class="value">2025</div></div>
+      <div class="item"><div class="label">Ubicación</div><div class="value">Valencia</div></div>
+      <div class="item"><div class="label">Cliente</div><div class="value">Only You Valencia</div></div>
+      <div class="item"><div class="label">Tipo</div><div class="value">Restaurante</div></div>
+    </section>
+
+    <section class="concepto">
+      <p>
+        El proyecto parte de la necesidad de mejorar la acústica del restaurante mirador ubicado en la última planta del hotel Only YOU Valencia. En lugar de limitarse a una solución técnica, se propone una intervención que conecte con el paisaje local y dialogue con los valores del propio hotel.
+
+La propuesta se inspira en las alquerías tradicionales y en los elementos naturales de la Albufera. El techo de cañizo existente se aclara para aportar mayor luminosidad, y sobre él se suspenden ondas de fieltro acústico en tonos crema que absorben el sonido y evocan, al mismo tiempo, el barro, las redes de pesca o las ondulaciones propias de las cubiertas rurales.
+
+La iluminación LED trasera acompaña el movimiento de las piezas, acentuando sus volúmenes y generando un paisaje textil suspendido que transforma el techo en una superficie vibrante y cálida. Una mejora funcional que se convierte en una experiencia sensorial profundamente ligada al territorio.
+      </p>
+    </section>
+  </main>
+
+  <nav class="menu-bottom-bar" aria-label="Menú">
+    <a href="descubrenos.html">Descúbrenos</a>
+    <a href="loquehacemos.html">Servicios</a>
+    <a href="contacto.html">Contacto</a>
+   
+  </nav>
+
+  <script>
+   
+
+    (function(){
+      const track = document.getElementById('track');
+      const slides = Array.from(track.querySelectorAll('.slide'));
+      const dotsWrap = document.getElementById('dots');
+      const prev = document.getElementById('prev');
+      const next = document.getElementById('next');
+      let i = 0;
+
+      function renderDots(){
+        dotsWrap.innerHTML = '';
+        slides.forEach((_, idx)=>{
+          const d = document.createElement('button');
+          d.className = 'dot'; d.type='button';
+          d.setAttribute('aria-label','Ir a imagen '+(idx+1));
+          d.setAttribute('aria-current', idx===i ? 'true':'false');
+          d.addEventListener('click', ()=>{ i=idx; update(); });
+          dotsWrap.appendChild(d);
+        });
+      }
+      function update(){
+        const w = track.clientWidth;
+        track.style.transform = `translateX(-${i*w}px)`;
+        Array.from(dotsWrap.children).forEach((dot, idx)=>dot.setAttribute('aria-current', idx===i?'true':'false'));
+      }
+      function go(n){ i=(n+slides.length)%slides.length; update(); }
+
+      prev.addEventListener('click', ()=>go(i-1));
+      next.addEventListener('click', ()=>go(i+1));
+      document.addEventListener('keydown',(e)=>{ if(e.key==='ArrowLeft')go(i-1); if(e.key==='ArrowRight')go(i+1); });
+
+      let startX=0;
+      track.addEventListener('touchstart', e=>{ startX=e.touches[0].clientX; }, {passive:true});
+      track.addEventListener('touchend', e=>{
+        const dx=e.changedTouches[0].clientX-startX;
+        if(Math.abs(dx)>40){ dx<0?go(i+1):go(i-1); }
+      }, {passive:true});
+
+      window.addEventListener('resize', update);
+      renderDots(); update();
+    })();
+  </script>
+</body>
+</html>
